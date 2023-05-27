@@ -1,0 +1,41 @@
+
+Tentu! Berikut adalah contoh mini assignment atau tugas untuk technical interview menggunakan Laravel:
+
+Deskripsi Tugas: Anda diminta untuk membuat sebuah aplikasi sederhana menggunakan Laravel yang memungkinkan pengguna untuk membuat, membaca, memperbarui, dan menghapus catatan (notes). Setiap catatan memiliki judul dan isi. Aplikasi ini juga harus memiliki sistem otentikasi pengguna yang memungkinkan pengguna untuk mendaftar, masuk, dan keluar.
+
+Tugas:
+
+Buatlah sebuah database dengan tabel "notes" yang memiliki kolom-kolom berikut:
+
+id (integer, primary key, auto increment)
+title (string)
+content (text)
+created_at (timestamp)
+updated_at (timestamp)
+Buatlah model "Note" yang sesuai dengan tabel "notes" dalam basis data. Model ini harus memiliki relasi dengan model User.
+
+Buatlah controller "NoteController" yang memiliki fungsi-fungsi berikut:
+
+index: Menampilkan daftar semua catatan yang dimiliki oleh pengguna yang sedang masuk.
+create: Menampilkan form untuk membuat catatan baru.
+store: Menyimpan catatan baru yang dibuat oleh pengguna.
+edit: Menampilkan form untuk mengedit catatan yang ada.
+update: Memperbarui catatan yang telah diubah oleh pengguna.
+destroy: Menghapus catatan yang dipilih oleh pengguna.
+Buatlah rute-rute yang sesuai untuk masing-masing fungsi dalam controller "NoteController".
+
+Implementasikan sistem otentikasi menggunakan Laravel. Pengguna harus dapat mendaftar, masuk, dan keluar dari aplikasi.
+
+Pastikan setiap fungsi dalam "NoteController" hanya dapat diakses oleh pengguna yang sudah masuk.
+
+Tampilkan halaman utama yang menampilkan daftar catatan pengguna yang sedang masuk. Tampilkan juga tombol untuk membuat catatan baru, mengedit catatan yang ada, dan menghapus catatan.
+
+Desain tampilan (views) yang sederhana dan responsif untuk halaman-halaman dalam aplikasi, termasuk halaman mendaftar, masuk, halaman utama dengan daftar catatan, dan form untuk membuat/mengedit catatan.
+
+Jika memungkinkan, tambahkan validasi pada form untuk memastikan data yang dimasukkan pengguna sesuai dengan persyaratan yang diinginkan (misalnya, judul dan isi catatan tidak boleh kosong).
+
+Buatlah beberapa kasus pengujian (test cases) menggunakan Laravel Dusk atau PHPUnit untuk memastikan bahwa fungsionalitas aplikasi berjalan dengan benar.
+
+Ini adalah contoh mini assignment atau tugas yang dapat diberikan dalam technical interview untuk Laravel. Anda dapat menyesuaikan atau menambahkan persyaratan sesuai kebutuhan.
+
+Selamat mengerjakan! Jika Anda memiliki pertanyaan lebih lanjut, jangan ragu untuk bertanya.
