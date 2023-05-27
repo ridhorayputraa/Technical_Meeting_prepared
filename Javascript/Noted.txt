@@ -1,0 +1,25 @@
+Tentu! Berikut adalah beberapa contoh soal yang sering muncul dalam wawancara teknis untuk pemrograman JavaScript:
+
+1. **Reverse a String**: Buatlah sebuah fungsi yang menerima sebuah string sebagai input dan mengembalikan string tersebut dalam urutan terbalik.
+
+2. **Find the Largest Number**: Buatlah sebuah fungsi yang menerima sebuah array angka dan mengembalikan angka terbesar dalam array tersebut.
+
+3. **Check for Palindrome**: Buatlah sebuah fungsi yang menerima sebuah string dan memeriksa apakah string tersebut adalah palindrom (string yang sama jika dibalik).
+
+4. **Fibonacci Sequence**: Buatlah sebuah fungsi yang menghasilkan deret Fibonacci dengan panjang tertentu. Deret Fibonacci adalah deret bilangan di mana setiap angka adalah penjumlahan dua angka sebelumnya (dimulai dengan 0 dan 1).
+
+5. **Check Prime Number**: Buatlah sebuah fungsi yang menerima sebuah bilangan dan memeriksa apakah bilangan tersebut adalah bilangan prima (angka yang lebih besar dari 1 dan hanya memiliki dua faktor, yaitu 1 dan dirinya sendiri).
+
+6. **Array Manipulation**: Buatlah sebuah fungsi yang menerima sebuah array angka dan menghasilkan array baru yang merupakan hasil dari menggandakan setiap angka dalam array tersebut.
+
+7. **Object Manipulation**: Buatlah sebuah fungsi yang menerima sebuah objek dan mengembalikan jumlah total nilai dari semua properti angka dalam objek tersebut.
+
+8. **Asynchronous Operations**: Jelaskan konsep asynchrony dalam JavaScript dan berikan contoh penggunaan Promise atau async/await untuk menangani operasi asinkronus.
+
+9. **Data Fetching**: Jelaskan perbedaan antara HTTP GET dan POST dalam konteks permintaan data. Bagaimana Anda akan mengirimkan permintaan HTTP GET atau POST menggunakan JavaScript?
+
+10. **Scope and Closure**: Jelaskan apa yang dimaksud dengan scope dalam JavaScript dan berikan contoh penggunaan closure.
+
+Ini hanyalah beberapa contoh soal yang mungkin muncul dalam wawancara teknis JavaScript. Pastikan Anda memahami konsep dasar JavaScript seperti tipe data, array, objek, fungsi, dan konsep-konsep lanjutan seperti asinkronisitas, closure, dan prototipe.
+
+Semoga membantu! Jika Anda memiliki pertanyaan lebih lanjut, silakan beri tahu saya.
