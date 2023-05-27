@@ -1,0 +1,25 @@
+Tentu! Berikut adalah beberapa contoh soal yang sering muncul dalam wawancara teknis untuk pemrograman dengan menggunakan framework Laravel:
+
+1. **MVC Pattern**: Jelaskan konsep Model-View-Controller (MVC) dan bagaimana Laravel menerapkannya.
+
+2. **Routing**: Bagaimana Anda mendefinisikan rute (routes) dalam Laravel? Jelaskan perbedaan antara `get`, `post`, `put`, dan `delete` pada rute.
+
+3. **Database Migration**: Jelaskan apa itu database migration dalam Laravel dan bagaimana cara membuat dan menjalankannya.
+
+4. **Eloquent ORM**: Jelaskan apa itu Eloquent ORM dalam Laravel dan bagaimana Anda menggunakan Eloquent untuk melakukan operasi database seperti pengambilan data (retrieve), penambahan data (insert), pembaruan data (update), dan penghapusan data (delete).
+
+5. **Middleware**: Apa itu middleware dalam Laravel? Bagaimana cara Anda membuat dan menggunakan middleware untuk melakukan tugas-tugas tertentu sebelum atau setelah pemrosesan rute?
+
+6. **Validation**: Jelaskan cara melakukan validasi data input dalam Laravel menggunakan fitur bawaan atau custom validation rules.
+
+7. **Authentication**: Bagaimana Anda mengimplementasikan sistem autentikasi (authentication) dalam Laravel? Jelaskan prosesnya dan jelaskan apa itu session dan token authentication.
+
+8. **Caching**: Apa itu caching dan mengapa penting dalam pengembangan web? Bagaimana Anda mengimplementasikan caching dalam Laravel?
+
+9. **API Development**: Bagaimana Anda mengembangkan API (Application Programming Interface) menggunakan Laravel? Jelaskan cara menangani permintaan HTTP, melakukan autentikasi, dan mengirimkan data dalam format JSON.
+
+10. **Testing**: Mengapa penting melakukan pengujian (testing) dalam pengembangan web? Jelaskan jenis-jenis pengujian yang dapat dilakukan dalam Laravel dan bagaimana Anda melakukannya.
+
+Ini hanya beberapa contoh soal yang mungkin muncul dalam wawancara teknis Laravel. Pastikan Anda memahami konsep dasar Laravel seperti routing, ORM, middleware, validasi, autentikasi, caching, API development, dan pengujian.
+
+Semoga membantu! Jika Anda memiliki pertanyaan lebih lanjut, silakan beri tahu saya.
