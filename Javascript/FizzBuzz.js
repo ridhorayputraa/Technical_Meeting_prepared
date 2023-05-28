@@ -58,4 +58,7 @@ function sorting(int) {
 // largestNumber('ridho')
 
 // 5.) Fibonnaci sequence
+function fibonnaciSequence(number){
+
+}
 
