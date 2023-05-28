@@ -1,5 +1,5 @@
-// ketika di angka 3 Fizz
-// ketika di angka 5 Buzz
+// ketika bsia dibago 3 Fizz
+// ketika ketika bisa di bagi  5 Buzz
 // Ketika 3 dan 5 adalah FizzBuzz => 15
 
 function FizzBuzz(number) {
@@ -25,11 +25,34 @@ function reversString(char) {
 // FizzBuzz(100);
 // reversString("Ridhoo");
 
-function largestNumber(number) {
-  const arrNumber = [number]
-  arrNumber.sort((a, b) => a - b);
+// 3.) mengambil Sort dari yang terbesar
+function largestNumber(...number) {
+  // console.log(number);
+
+  number.sort((a, b) => a - b);
+  return console.log(number);
 }
 
-console.log(largestNumber(1,2,3,4,5,6,7,8,9,10))
+// 4.) Palindrome => kodok = kodok true || api = ipa false
+function palindrome(currentChar) {
+  let char = [...currentChar].join();
 
+  let reverseChar = [...currentChar].reverse().join();
+  if (char !== reverseChar) {
+    return false;
+  }
+  return true;
+  // return char === reverseChar
+}
 
+console.log(palindrome("ridho"));
+console.log(palindrome("apa"));
+console.log(palindrome("kodok"));
+console.log(palindrome("api"));
+
+function sorting(int) {
+  for (let i = 1; (i = int); i++) {}
+}
+
+// largestNumber(1, 2, 3, 9, 4, 32, 5, 6, 7, 8, 9, 10, 12, 110);
+// largestNumber('ridho')
