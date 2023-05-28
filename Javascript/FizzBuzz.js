@@ -56,3 +56,6 @@ function sorting(int) {
 
 // largestNumber(1, 2, 3, 9, 4, 32, 5, 6, 7, 8, 9, 10, 12, 110);
 // largestNumber('ridho')
+
+// 5.) Fibonnaci sequence
+
