@@ -1,18 +1,35 @@
 // ketika di angka 3 Fizz
 // ketika di angka 5 Buzz
-// Ketika 3 dan 2 adalah FizzBuzz
+// Ketika 3 dan 5 adalah FizzBuzz => 15
 
-for (let i = 1; i <= 100; i++) {
-  let char = '';
-  if (i % 3 === 0 && i % 5 === 0) {
-    // Jika i habisa dibagi 3 dan 5 kan 15 berarti 15 = fizzbuzz
-    console.log(`${char}FizzBuzz`);
-  } else if (i % 3 === 0) {
-    // Jika i(3) dibagi 3 = 0 gak? kalo true 'fizz'
-    console.log(`${char}Fizz`);
-  } else if (i % 5 === 0) {
-    console.log(`${char}Buzz`);
-  } else {
-    console.log(i);
+function FizzBuzz(number) {
+  for (let i = 1; i <= number; i++) {
+    if (i % 3 === 0 && i % 5 === 0) {
+      console.log("FizzBuzz");
+    } else if (i % 3 === 0) {
+      console.log("Fizzz");
+    } else if (i % 5 === 0) {
+      console.log("Buzzz");
+    } else {
+      console.log(i);
+    }
   }
 }
+
+function reversString(char) {
+  const Arr = [char];
+  // Split ngebalikin array
+  console.log(char.split("").reverse());
+}
+
+// FizzBuzz(100);
+// reversString("Ridhoo");
+
+function largestNumber(number) {
+  const arrNumber = [number]
+  arrNumber.sort((a, b) => a - b);
+}
+
+console.log(largestNumber(1,2,3,4,5,6,7,8,9,10))
+
+
