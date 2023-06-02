@@ -20,6 +20,15 @@ class Book extends Model
     }
 
     public function GetPicture(){
-        return url('') . Storage::url($this->attributes['Thumbnail']);
+        return url('') . Storage::url($this->attributes['thumbnail']);
     }
+
+    public function users(){
+      return $this->hasMany(User::class, 'id', 'user_id');
+    }
+
+    public function authors(){
+      return $this->hasOne(Author::class, 'id', 'author_id');
+    }
+
 }
