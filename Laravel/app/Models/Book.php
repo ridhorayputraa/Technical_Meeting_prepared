@@ -27,8 +27,14 @@ class Book extends Model
       return $this->hasMany(User::class, 'id', 'user_id');
     }
 
-    public function authors(){
+    public function author(){
       return $this->hasOne(Author::class, 'id', 'author_id');
     }
+
+    public function genre(){
+        return $this->hasOne(Genre::class, 'id', 'genre_id');
+    }
+
+    
 
 }
