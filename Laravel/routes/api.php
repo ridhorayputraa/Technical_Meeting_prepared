@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\API\UserController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -14,6 +15,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
-    return $request->user();
+
+// Buat nge handle API
+// Kalo udah login boleh nge akses ini
+Route::middleware('auth:sanctum')->group(function (){
+    // Grouping Auth sanctum middlewre -> security
+    // Route::get('user', [UserController::class, 'l']);
 });
+
+// Kalo belom login yang ini
+Route::post('login', [UserController::class, 'login']);
+Route::post('register', [UserController::class, 'register']);
+
+

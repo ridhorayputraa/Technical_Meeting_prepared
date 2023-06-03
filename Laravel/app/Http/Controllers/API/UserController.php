@@ -60,4 +60,44 @@ class UserController extends Controller
     }
 }
 
+public function register(Request $request){
+    try{
+        $request->validate([
+            'name' => ['required', 'string', 'max:20'],
+            'email' => ['required','string' ,'email', 'unique:users'],
+            'password' => $this->passwordRules()
+        ]);
+
+        // Langsung menambahkan field baru di table User
+        User::create([
+            'name' => $request->name,
+            'email' => $request->email,
+            'password' => Hash::make($request->password),
+
+        ]);
+
+        // Buat response ke API nya
+        $user = User::where('email', $request->email)->first();
+
+
+        // Create akun dan berikan token
+        $tokenResult = $user->createToken('authToken')->plainTextToken;
+
+        return ResponseFormatter::success([
+            'acces_token' => $tokenResult,
+            'token_type' => 'Bearer',
+            'user' => $user
+        ]);
+
+    }
+
+
+    catch(Exception $error){
+        return ResponseFormatter::error([
+            'message'=> 'Somethinh went wrong',
+            'error' => $error->getMessage()
+        ], 'Authentication Failed', 500);
+    }
+}
+
 }

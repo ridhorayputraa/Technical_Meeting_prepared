@@ -32,6 +32,10 @@ class User extends Authenticatable
     //     'password',
     // ];
 
+
+    // BIKIN FITUR FAVORITE
+
+
     /**
      * The attributes that should be hidden for serialization.
      *
