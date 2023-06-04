@@ -21,6 +21,7 @@ class DatabaseSeeder extends Seeder
 
 
                 BookFactory::new()->count(8)->create();
+                
 
 
 // DB::table('books')->insert([
