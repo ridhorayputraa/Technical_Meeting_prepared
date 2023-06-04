@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\API\BookController;
+use App\Http\Controllers\API\DiscussionsController;
 use App\Http\Controllers\API\UserController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
@@ -30,4 +31,6 @@ Route::post('register', [UserController::class, 'register']);
 
 Route::get('book', [BookController::class, 'all']);
 
+
+Route::get('disccusion', [DiscussionsController::class, 'DataDiscussion']);
 
