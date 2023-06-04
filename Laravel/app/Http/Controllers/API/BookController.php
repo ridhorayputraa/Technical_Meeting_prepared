@@ -65,9 +65,11 @@ class BookController extends Controller
             $book->where('rating'. '<=', $rating_to);
         }
 
-        return ResponseFormatter::success([
-            'Data' => $book->paginate($limit),
-            'Message' => 'List Buku berhasil di ambil'
-        ]);
+        return ResponseFormatter::success(
+           $book->paginate($limit),
+             'List Buku berhasil di ambil'
+        );
     }
 }
+
+
